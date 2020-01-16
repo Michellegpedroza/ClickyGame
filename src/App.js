@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Game from './components/Game'
 import Footer from './components/Footer'
 import GameContext from './utils/GameContext'
+import Description from './components/Description/Description';
 
 const App = () => {
 
@@ -56,6 +57,7 @@ const App = () => {
   return (
     <GameContext.Provider value={gameState}>
       <Navbar />
+      <Description/>
       <Game />
       <Footer />
     </GameContext.Provider>
