@@ -9,10 +9,10 @@ const Navbar = () => {
       <AppBar position="fixed">
         <Toolbar>
           <Typography variant="h3">
-            Clicky Game
+            Clicky Game -
           </Typography>
-          <p>Your Score: {score}</p>
-          <p>High Score: {highScore}</p>
+          <Typography variant="h4"> - Your Score: {score}  -</Typography>
+          <Typography variant="h4"> - High Score: {highScore} </Typography>
         </Toolbar>
       </AppBar>
     </>
