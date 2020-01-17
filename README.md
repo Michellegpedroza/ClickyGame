@@ -12,3 +12,6 @@ The application should keep track of the user's score. The user's score should b
 Every time an image is clicked, the images rendered to the page should shuffle themselves in a random order.
 
 Once the user's score is reset after an incorrect guess, the game should restart.
+
+
+<img width="1667" alt="Screen Shot 2020-01-17 at 10 08 34 AM" src="https://user-images.githubusercontent.com/51764119/72635297-5f0aec00-3911-11ea-9279-11ab288b122d.png">
