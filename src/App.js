@@ -4,6 +4,7 @@ import Game from './components/Game'
 import Footer from './components/Footer'
 import GameContext from './utils/GameContext'
 import Description from './components/Description/Description'
+import Container from '@material-ui/core/Container'
 
 const App = () => {
 
@@ -17,9 +18,10 @@ const App = () => {
       <img id="img3" height="300px" width="400" alt="click me" src={require("./images/three.jpg")} />,
       <img id="img4" height="300px" width="400" alt="click me" src={require("./images/four.jpg")} />,
       <img id="img5" height="300px" width="400" alt="click me" src={require("./images/five.jpg")} />,
-      <img id="img6" height="300px" width="400"  alt="click me" src={require("./images/six.jpg")} />,
+      <img id="img6" height="300px" width="400" alt="click me" src={require("./images/six.jpg")} />,
       <img id="img7" height="300px" width="400" alt="click me" src={require("./images/seven.jpg")} />,
       <img id="img8" height="300px" width="400" alt="click me" src={require("./images/eight.jpg")} />,
+      <img id="img8" height="300px" width="400" alt="click me" src={require("./images/nine.jpg")} />
     ]
   })
 
@@ -57,8 +59,10 @@ const App = () => {
   return (
     <GameContext.Provider value={gameState}>
       <Navbar />
-      <Description/>
-      <Game />
+      <Container fixed>
+        <Description />
+        <Game />
+      </Container>
       <Footer />
     </GameContext.Provider>
   )
