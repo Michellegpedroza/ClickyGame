@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'
 import Navbar from './components/Navbar'
 import Game from './components/Game'
 import Footer from './components/Footer'
 import GameContext from './utils/GameContext'
-import Description from './components/Description/Description';
+import Description from './components/Description/Description'
 
 const App = () => {
 
